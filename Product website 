@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="light">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Smartphone X — Tech Specs</title>
+
+    <!-- Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/css/bootstrap.min.css" rel="stylesheet">
+    
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="rsc/css/style.css">
+
+</head>
+<body class="bg-light text-dark">
+
+<!-- Header -->
+<nav class="navbar navbar-expand-lg navbar-light bg-light px-5">
+    <a class="navbar-brand" href="#"><img src="media/img/logo.png" alt="Smartphone X Logo" height="40"></a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav">
+        <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+        <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="index.html">Feature Page</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link active" href="specs.html">Tech Specs</a>
+            </li>
+        </ul>
+    </div>
+</nav>
+
+<!-- Tech Specs Section -->
+<section class="container py-5">
+    <h2 class="mb-4 text-center">Smartphone X Gadget identification</h2>
+    <div class="row g-4">
+        <div class="col-md-6">
+            <h5>Display</h5>
+            <p>IPS LCD, 120Hz
+Size	6.67 inches, 107.4 cm2 (~84.2% screen-to-body ratio)
+Resolution	720 x 1600 pixels, 20:9 ratio (~263 ppi density)</p>
+            <h5>Chip set</h5>
+            <p>Unisoc T7250 (12 nm)</p>
+            <h5>Memory</h5>
+            <p>64GB 3GB RAM, 64GB 4GB RAM, 128GB 3GB RAM, 128GB 4GB RAM, 256GB 4GB RAM</p>
+        </div>
+        <div class="col-md-6">
+            <h5>Camera</h5>
+            <p>13 MP, f/1.8, 27mm (wide), PDAF
+      	Dual-LED flash, HDR
+	      1080p@30fps</p>
+            <h5>Battery</h5>
+            <p>5000 mAh
+           	15W wired</p>
+            <h5>COMMS</h5>
+            <p>
+    WLAN,	Yes
+    Bluetooth,	Yes
+    Positioning,	GPS
+    NFC,	No
+    Infrared port,	Yes
+    Radio,	FM radio
+    USB,	USB Type-C, OTG</p>
+            <h5>Feature</h5>
+            <p>Fingerprint (side-mounted); unspecified sensors</p>
+        </div>
+    </div>
+</section>
+
+<!-- Footer -->
+<footer class="bg-dark text-white py-3">
+    <div class="container d-flex justify-content-between align-items-center">
+        <small>&copy; All Rights Reserved</small>
+        <img src="media/img/logo.png" alt="Smartphone X Logo" height="20">
+        <small>Developed by [Deejay Soriano]</small>
+    </div>
+</footer>
+
+<!-- Bootstrap JS -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"></script>
+<!-- Custom JS -->
+<script src="rsc/js/script.js"></script>
+
+</body>
+</html>
